@@ -1,7 +1,7 @@
 /* ==========================================
    QUẢN LÝ NHẠC TRONG FOLDER
    ========================================== */
-const folderNhac = "music/";    // Tên thư mục chứa nhạc
+const folderNhac = "m3p/";    // Tên thư mục chứa nhạc
 const tenFileNhac = "quangloc.mp3"; // Tên file nhạc bên trong thư mục đó
 
 /* ========================================== */
