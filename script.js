@@ -1,9 +1,8 @@
 /* ==========================================
    QUẢN LÝ NHẠC TRONG FOLDER
    ========================================== */
-const folderNhac = "m3p/";    // Tên thư mục chứa nhạc
-const tenFileNhac = "quangloc.mp3"; // Tên file nhạc bên trong thư mục đó
-
+const playlist = ["quangloc.mp3"]; 
+const musicFolder = ""; // Để trống vì file nhạc nằm ngay bên ngoài, không nằm trong folder music nữa
 /* ========================================== */
 
 const music = document.getElementById("bg-music");
@@ -57,4 +56,5 @@ function toggleMusic() {
         btn.innerText = "MỞ NHẠC";
         viz.classList.remove("playing");
     }
+
 }
